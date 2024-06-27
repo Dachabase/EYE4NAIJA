@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #ddd;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+header{
+    margin-top: 100px;
+    margin-right: 890px;
+    font-size: 20px;
+    padding-bottom: 13px;
+}
+nav {
+
+    border-radius: 22px;
+    margin-left: 155px;
+    margin-top: 20;
+    height: 50px;
+    width: fit-content;
+    filter: drop-shadow(2px 8px 20px black        );
+    }
+    
+    
+nav>a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 7px;
+    align-items: center;
+    font-size: 30px;
+    padding-left: 40px;
+    color: #287542;
+    }    
+    
+nav>a:hover {
+    color: rgb(0, 0, 0);
+    }
+
+.dark-theme h1 {
+    text-align: center;
+    color: #ccc; /* Change text color to light gray */
+}
+
+.dark-theme form {
+    margin-bottom: 20px;
+}
+
+.dark-theme label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+}
+
+.full-report {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.full-report h4, .full-report p {
+    color: #000; /* Black text */
+    font-weight: bold; /* Bold text */
+    font-size: 16px; /* Larger text size */
+}
+
+
+.report-container {
+    max-width: 800px; /* Set a maximum width for the container */
+    margin: 40px auto; /* Add some margin to center the container */
+    padding: 20px; /* Add some padding to create some space around the content */
+    background-color: #0b2c15; /* Add a light gray background color */
+    border: 1px solid #ddd; /* Add a light gray border */
+    border-radius: 10px; /* Add some rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add some subtle shadow effect */
+}
+
+#report-list {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+#report-list > .report-container {
+    margin-bottom: 20px; /* Add some margin between report containers */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h1 {
+    margin-top: 20px;
+}
+form {
+    margin-top: 40px;
+}
+#report-list {
+    margin-top: 20px;
+}
+.report {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 10px;
+}
+.report:hover {
+    background-color: #287542 ; /* Brown color on hover */
+}
+.report a {
+    text-decoration: none;
+    color: #000000;
+}
+.report a:hover {
+    text-decoration: underline;
+}
+.full-report {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #2e2929;
+    border-radius: 10px;
+}
